@@ -7,6 +7,14 @@
 // (because these are the circumstances under which you need to set an alarm).
 // It should return false otherwise. Examples:
 
-function setAlarm(employed, vacation) {
+// Done!
 
-}
+// function setAlarm(employed, vacation){
+//   if (employed == true & vacation == false) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+
+let setAlarm = (employed, vacation) => (employed == true && vacation == false)
